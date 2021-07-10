@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import VStack from './components/VStack'
+import Image from './components/Image'
+import HStack from './components/HStack'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { VStack, HStack, Image }

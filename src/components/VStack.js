@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import View from './View'
 
-const VStack = styled.div((props) => ({
+const VStack = styled(View)((props) => ({
   display: 'flex',
   gap: props.gap ?? null,
   justifyContent: props.justifyContent ?? null,

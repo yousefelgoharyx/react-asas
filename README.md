@@ -6,25 +6,17 @@
 
 ## Install
 
+### NPM
+
 ```bash
-npm install --save asas
+npm install --save react-asas
 ```
 
-## Usage
+### Yarn
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'asas'
-import 'asas/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+```bash
+yarn add react-asas
 ```
-
 ## License
 
 MIT © [yousefelgoharyx](https://github.com/yousefelgoharyx)
